@@ -3,23 +3,21 @@ class GameObject {
   PVector vel;
   boolean dead;
 
-  GameObject() {
-    loc = new PVector(0, 0);
-    vel = new PVector(0, 0);
-    dead = false;
+  GameObject(){
+    loc=new PVector(0,0);
+    vel=new PVector(0,0);
+    dead=false;
   }
 
-  GameObject(float startX, float startY) {
-    loc = new PVector(startX, startY);
-    vel = new PVector(0, 0);
-    dead = false;
+  GameObject(float x,float y){
+    loc=new PVector(x,y);
+    vel=new PVector(0,0);
+    dead=false;
   }
 
-  void act() {
-    // default empty
+  void act(){
   }
 
-  void show() {
-    // default empty
+  void show(){
   }
 }
